@@ -39,6 +39,7 @@
 
           
                 <div id='root'></div>
+                <h1>test</h1>
             
         </div>
         <script src="{{ asset('js/app.js') }}" defer></script>
