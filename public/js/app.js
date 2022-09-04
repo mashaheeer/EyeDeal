@@ -6278,7 +6278,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".container{\r\n    height:100vh;\r\n    width: 100vw;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    flex-direction: column;\r\n    background-image: url(" + escape(__webpack_require__(/*! ../../Images/Background.jpeg */ "./resources/js/Images/Background.jpeg")) + ");\r\n    background-repeat: none;\r\n    background-size: cover;\r\n    background-position: center;\r\n}\r\n\r\n.container h1,p{\r\n    color: #DBBCA8;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, ".container{\r\n    height:100vh;\r\n    width: 100vw;\r\n    flex-direction: column;\r\n    background-image: url(" + escape(__webpack_require__(/*! ../../Images/soon.png */ "./resources/js/Images/soon.png")) + ");\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center;\r\n}\r\n\r\n\r\n\r\n", ""]);
 
 // exports
 
@@ -66459,14 +66459,14 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./resources/js/Images/Background.jpeg":
-/*!*********************************************!*\
-  !*** ./resources/js/Images/Background.jpeg ***!
-  \*********************************************/
+/***/ "./resources/js/Images/soon.png":
+/*!**************************************!*\
+  !*** ./resources/js/Images/soon.png ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/Background.jpeg?0f145e7492a0eb39e36a4d957c72752d";
+module.exports = "/images/soon.png?40dc3e923d35360a940acd48e3bffe6f";
 
 /***/ }),
 
@@ -66591,7 +66591,7 @@ __webpack_require__.r(__webpack_exports__);
 var Root = function Root() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Coming Soon"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0642\u0631\u064A\u0628\u0627"));
+  });
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Root);

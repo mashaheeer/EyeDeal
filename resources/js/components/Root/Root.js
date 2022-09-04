@@ -6,8 +6,6 @@ const Root = () =>{
     return(
         
         <div className='container'>
-            <h1>Coming Soon</h1>
-            <p>قريبا</p>
         </div>
     )
 }
