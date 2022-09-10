@@ -6278,7 +6278,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".container{\r\n    height:100vh;\r\n    width: 100vw;\r\n    flex-direction: column;\r\n    background-image: url(" + escape(__webpack_require__(/*! ../../Images/soon.png */ "./resources/js/Images/soon.png")) + ");\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position: center;\r\n}\r\n\r\n\r\n\r\n", ""]);
+exports.push([module.i, ".container{\n    height:100vh;\n    width: 100vw;\n\n}\n.images-container{\ndisplay: flex;\nflex-direction: column;\njustify-content: center;\nalign-items: center;\nheight: 100vh;\nwidth: 100%;\nflex-direction: column;\nbackground-image: url(" + escape(__webpack_require__(/*! ../../Images/background.png */ "./resources/js/Images/background.png")) + ");\nbackground-repeat: no-repeat;\n}\n.logo{\n    margin-bottom: 20px;\nheight: 30vh;\nwidth:20vw\n}\n.soon{\n    height:10vh;\n    width:20vw;\n}\n.glasses{\n    height:60vh;\n    width:100vw\n}\n.top-section{\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 40vh;\n    flex-direction: column;\n}\n@media only screen and (max-height:1000px){\n    .soon, .logo{\n        height:15vh;\n        width: 40vw;\n\n    }\n\n}\n\n\n", ""]);
 
 // exports
 
@@ -66459,6 +66459,39 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/js/Images/background.png":
+/*!********************************************!*\
+  !*** ./resources/js/Images/background.png ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/background.png?313a0140b555ee795f8fcde63820483a";
+
+/***/ }),
+
+/***/ "./resources/js/Images/glasses.png":
+/*!*****************************************!*\
+  !*** ./resources/js/Images/glasses.png ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/glasses.png?17e7639a511d73a17f281e2257b6e58f";
+
+/***/ }),
+
+/***/ "./resources/js/Images/logo.png":
+/*!**************************************!*\
+  !*** ./resources/js/Images/logo.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/logo.png?389d0e5b9a4e524fbbaf9ecc1f2a8a55";
+
+/***/ }),
+
 /***/ "./resources/js/Images/soon.png":
 /*!**************************************!*\
   !*** ./resources/js/Images/soon.png ***!
@@ -66466,7 +66499,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/soon.png?40dc3e923d35360a940acd48e3bffe6f";
+module.exports = "/images/soon.png?5c939c18832304e5cfd365754111af1e";
 
 /***/ }),
 
@@ -66591,7 +66624,20 @@ __webpack_require__.r(__webpack_exports__);
 var Root = function Root() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
-  });
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "images-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "top-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../Images/logo.png */ "./resources/js/Images/logo.png"),
+    className: "logo"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../Images/soon.png */ "./resources/js/Images/soon.png"),
+    className: "soon"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../../Images/glasses.png */ "./resources/js/Images/glasses.png"),
+    className: "glasses"
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Root);
@@ -66620,8 +66666,8 @@ if (document.getElementById('root')) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Michel\Desktop\EyeDeal\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Michel\Desktop\EyeDeal\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/michelnassar/EyeDeal/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/michelnassar/EyeDeal/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

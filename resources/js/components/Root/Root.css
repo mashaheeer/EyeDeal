@@ -1,12 +1,46 @@
 .container{
     height:100vh;
     width: 100vw;
-    flex-direction: column;
-    background-image: url('../../Images/soon.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
+}
+.images-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100%;
+flex-direction: column;
+background-image: url('../../Images/background.png');
+background-repeat: no-repeat;
+}
+.logo{
+    margin-bottom: 20px;
+height: 30vh;
+width:20vw
+}
+.soon{
+    height:10vh;
+    width:20vw;
+}
+.glasses{
+    height:60vh;
+    width:100vw
+}
+.top-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    flex-direction: column;
+}
+@media only screen and (max-height:1000px){
+    .soon, .logo{
+        height:15vh;
+        width: 40vw;
+
+    }
+
+}
 
 
