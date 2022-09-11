@@ -1,3 +1,5 @@
+
+
 .container{
     height:100vh;
     width: 100vw;
@@ -16,34 +18,101 @@ background-image: url('../../Images/background.png');
 background-repeat: no-repeat;
 }
 .logo{
+    margin-top: 50px;
     margin-bottom: 20px;
-height: 20vh;
-width:20vw
+    height: 260px;
+    width:500px
 }
 .soon{
-    height:20vh;
-    width:20vw;
+    height:181px;
+    width:420px;
 }
 .glasses{
-    height:60vh;
-    width:100vw
+    height:43vh;
+    width:2100px;
 }
 .top-section{
-    margin-top: 10vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 40vh;
+    align-items: flex-end;
+    height: 57vh;
     flex-direction: column;
 
 }
+.soon-sec, .logo-sec{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:1500px){
+.top-section{
+    height: 60vh;
+}
+    .glasses{
+        height:40vh;
+        width:2000px;
+    }
+    .logo{
+        
+    height: 222px;
+    width:430px
+    }
+    .soon{
+        height:160px;
+        width:370px;
+    }
+}
 @media only screen and (max-width:1000px){
-    .soon, .logo{
-        height:15vh;
-        width: 40vw;
+    .soon{
+        height:107px;
+        width: 246px;
+    }
+    .logo{margin: 0;
+        height: 146px;
+        width:286px
+        }
+    .top-section{
+        height:65vh;
 
+
+    }
+    .glasses{
+        height:35vh;
+        width: 1500px;
     }
 
 }
+@media only screen and (max-width:800px){
+    .glasses{
+        width: 1200px;
+    }
+}
+@media only screen and (max-width:500px){
+    .soon{
+        height:90px;
+        width: 200px;
+
+    }
+    .logo{
+        height: 114px;
+        width: 220px;
+    }
+    .top-section{
+        height:67vh;
+margin-bottom: 20px;
+
+    }
+    .glasses{
+        height:33vh;
+        width: 700px;
+    }
 
 
+}
+@media only screen and (min-width:2200px) {
+    .glasses{
+        width: 120vw;
+    }
+}

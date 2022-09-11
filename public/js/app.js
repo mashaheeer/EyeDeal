@@ -6278,7 +6278,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".container{\n    height:100vh;\n    width: 100vw;\n    overflow: hidden;\n\n}\n.images-container{\ndisplay: flex;\nflex-direction: column;\njustify-content: center;\nalign-items: center;\nheight: 100vh;\nwidth: 100%;\nflex-direction: column;\nbackground-image: url(" + escape(__webpack_require__(/*! ../../Images/background.png */ "./resources/js/Images/background.png")) + ");\nbackground-repeat: no-repeat;\n}\n.logo{\n    margin-bottom: 20px;\nheight: 20vh;\nwidth:20vw\n}\n.soon{\n    height:20vh;\n    width:20vw;\n}\n.glasses{\n    height:60vh;\n    width:100vw\n}\n.top-section{\n    margin-top: 10vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 40vh;\n    flex-direction: column;\n\n}\n@media only screen and (max-width:1000px){\n    .soon, .logo{\n        height:15vh;\n        width: 40vw;\n\n    }\n\n}\n\n\n", ""]);
+exports.push([module.i, "\n\n.container{\n    height:100vh;\n    width: 100vw;\n    overflow: hidden;\n\n}\n.images-container{\ndisplay: flex;\nflex-direction: column;\njustify-content: center;\nalign-items: center;\nheight: 100vh;\nwidth: 100%;\nflex-direction: column;\nbackground-image: url(" + escape(__webpack_require__(/*! ../../Images/background.png */ "./resources/js/Images/background.png")) + ");\nbackground-repeat: no-repeat;\n}\n.logo{\n    margin-top: 50px;\n    margin-bottom: 20px;\n    height: 260px;\n    width:500px\n}\n.soon{\n    height:181px;\n    width:420;\n}\n.glasses{\n    height:43vh;\n    width:2100px;\n}\n.top-section{\n    width: 100vw;\n    display: flex;\n    justify-content: center;\n    align-items: flex-end;\n    height: 60vh;\n    flex-direction: column;\n\n}\n.soon-sec, .logo-sec{\n    width: 100vw;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n@media only screen and (max-width:1500px){\n\n    .glasses{\n        height:40vh;\n        width:2000px;\n    }\n    .logo{\n    height: 222px;\n    width:430px\n    }\n    .soon{\n        height:160px;\n        width:370px;\n    }\n}\n@media only screen and (max-width:1000px){\n    .soon{\n        height:107px;\n        width: 246px;\n    }\n    .logo{\n        height: 146px;\n        width:286px\n        }\n    .top-section{\n        height:60vh;\nmargin-top: 10vh;\n\n    }\n    .glasses{\n        height:35vh;\n        width: 1500px;\n    }\n\n}\n@media only screen and (max-width:800px){\n    .glasses{\n        width: 1200px;\n    }\n}\n@media only screen and (max-width:500px){\n    .soon{\n        height:90px;\n        width: 200px;\n\n    }\n    .logo{\n        height: 114px;\n        width: 220px;\n    }\n    .top-section{\n        height:50vh;\nmargin-top: 10vh;\n\n    }\n    .glasses{\n        height:33vh;\n        width: 700px;\n    }\n\n}\n@media only screen and (min-width:2200px) {\n    .glasses{\n        width: 120vw;\n    }\n}", ""]);
 
 // exports
 
@@ -66628,13 +66628,17 @@ var Root = function Root() {
     className: "images-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "top-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "logo-sec"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: __webpack_require__(/*! ../../Images/logo.png */ "./resources/js/Images/logo.png"),
     className: "logo"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "soon-sec"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: __webpack_require__(/*! ../../Images/soon.png */ "./resources/js/Images/soon.png"),
     className: "soon"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: __webpack_require__(/*! ../../Images/glasses.png */ "./resources/js/Images/glasses.png"),
     className: "glasses"
   })));

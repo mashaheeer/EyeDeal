@@ -8,8 +8,12 @@ const Root = () =>{
         <div className='container'>
         <div className="images-container">
             <div className='top-section'>
-        <img  src={require('../../Images/logo.png')} className='logo' />
+                <div className="logo-sec">
+                    <img  src={require('../../Images/logo.png')} className='logo' />
+                    </div>
+        <div className="soon-sec">
             <img  src={require('../../Images/soon.png')} className='soon' />
+            </div>
             </div>
             <img src={require('../../Images/glasses.png')} className='glasses'/>
         </div>
