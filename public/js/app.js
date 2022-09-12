@@ -6265,10 +6265,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Root/Root.css":
-/*!*******************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/Root/Root.css ***!
-  \*******************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Root/Styles.css":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/Root/Styles.css ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6278,7 +6278,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n\n.container{\n    height:100vh;\n    width: 100vw;\n    overflow: hidden;\n\n}\n.images-container{\ndisplay: flex;\nflex-direction: column;\njustify-content: center;\nalign-items: center;\nheight: 100vh;\nwidth: 100%;\nflex-direction: column;\nbackground-image: url(" + escape(__webpack_require__(/*! ../../Images/background.png */ "./resources/js/Images/background.png")) + ");\nbackground-repeat: no-repeat;\n}\n.logo{\n    margin-top: 50px;\n    margin-bottom: 20px;\n    height: 260px;\n    width:500px\n}\n.soon{\n    height:181px;\n    width:420px;\n}\n.glasses{\n    height:43vh;\n    width:2100px;\n}\n.top-section{\n    width: 100vw;\n    display: flex;\n    justify-content: center;\n    align-items: flex-end;\n    height: 57vh;\n    flex-direction: column;\n\n}\n.soon-sec, .logo-sec{\n    width: 100vw;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n@media only screen and (max-width:1500px){\n.top-section{\n    height: 60vh;\n}\n    .glasses{\n        height:40vh;\n        width:2000px;\n    }\n    .logo{\n    height: 222px;\n    width:430px\n    }\n    .soon{\n        height:160px;\n        width:370px;\n    }\n}\n@media only screen and (max-width:1000px){\n    .soon{\n        height:107px;\n        width: 246px;\n    }\n    .logo{margin: 0;\n        height: 146px;\n        width:286px\n        }\n    .top-section{\n        height:65vh;\n\n\n    }\n    .glasses{\n        height:35vh;\n        width: 1500px;\n    }\n\n}\n@media only screen and (max-width:800px){\n    .glasses{\n        width: 1200px;\n    }\n}\n@media only screen and (max-width:500px){\n    .soon{\n        height:90px;\n        width: 200px;\n\n    }\n    .logo{\n        height: 114px;\n        width: 220px;\n    }\n    .top-section{\n        height:67vh;\nmargin-bottom: 20px;\n\n    }\n    .glasses{\n        height:33vh;\n        width: 700px;\n    }\n\n\n}\n@media only screen and (min-width:2200px) {\n    .glasses{\n        width: 120vw;\n    }\n}", ""]);
+exports.push([module.i, "\n\n.container{\n    height:100vh;\n    width: 100vw;\n    overflow: hidden;\n\n}\n.images-container{\ndisplay: flex;\nflex-direction: column;\njustify-content: center;\nalign-items: center;\nheight: 100vh;\nwidth: 100%;\nflex-direction: column;\nbackground-image: url(" + escape(__webpack_require__(/*! ../../Images/background.png */ "./resources/js/Images/background.png")) + ");\nbackground-repeat: no-repeat;\n}\n.logo{\n    margin-top: 50px;\n    margin-bottom: 20px;\n    height: 260px;\n    width:500px\n}\n.soon{\n    height:181px;\n    width:420px;\n}\n.glasses{\n    height:43vh;\n    width:2100px;\n}\n.top-section{\n    width: 100vw;\n    display: flex;\n    justify-content: center;\n    align-items: flex-end;\n    height: 57vh;\n    flex-direction: column;\n\n}\n.soon-sec, .logo-sec{\n    width: 100vw;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n@media only screen and (max-width:1500px){\n.top-section{\n    height: 60vh;\n}\n    .glasses{\n        height:40vh;\n        width:2000px;\n    }\n    .logo{\n    height: 222px;\n    width:430px\n    }\n    .soon{\n        height:160px;\n        width:370px;\n    }\n}\n@media only screen and (max-width:1000px){\n    .soon{\n        height:107px;\n        width: 246px;\n    }\n    .logo{margin: 0;\n        height: 146px;\n        width:286px\n        }\n    .top-section{\n        height:65vh;\n\n\n    }\n    .glasses{\n        height:35vh;\n        width: 1500px;\n    }\n\n}\n@media only screen and (max-width:800px){\n    .glasses{\n        width: 1200px;\n    }\n}\n@media only screen and (max-width:500px){\n    .soon{\n        height:90px;\n        width: 200px;\n\n    }\n    .top-section{\n\n    justify-content: flex-end;\n    align-items: flex-end;\n\n}\n    .logo{\n        height: 114px;\n        width: 220px;\n    }\n    .top-section{\n        height:67vh;\nmargin-bottom: 20px;\n\n    }\n    .glasses{\n        height:33vh;\n        width: 700px;\n    }\n\n\n}\n@media only screen and (min-width:2200px) {\n    .glasses{\n        width: 120vw;\n    }\n}\n\n@media only screen and (max-height:1500px) {\n    .top-section{\n        \n        height:63vh;\n    }\n\n    .logo{\n    margin-top: 10px;\n    margin-bottom: 20px;\n    height: 151px;\n    width:291px\n}\n.soon{\n    height:120px;\n    width:278px;\n}\n.glasses{\n    height:37vh;\n    width:2100px;\n}\n}\n", ""]);
 
 // exports
 
@@ -66572,36 +66572,6 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/components/Root/Root.css":
-/*!***********************************************!*\
-  !*** ./resources/js/components/Root/Root.css ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./Root.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Root/Root.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
 /***/ "./resources/js/components/Root/Root.js":
 /*!**********************************************!*\
   !*** ./resources/js/components/Root/Root.js ***!
@@ -66615,8 +66585,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Root_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Root.css */ "./resources/js/components/Root/Root.css");
-/* harmony import */ var _Root_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Root_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Styles.css */ "./resources/js/components/Root/Styles.css");
+/* harmony import */ var _Styles_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Styles_css__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
@@ -66652,6 +66622,36 @@ if (document.getElementById('root')) {
 
 /***/ }),
 
+/***/ "./resources/js/components/Root/Styles.css":
+/*!*************************************************!*\
+  !*** ./resources/js/components/Root/Styles.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./Styles.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Root/Styles.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/sass/app.scss":
 /*!*********************************!*\
   !*** ./resources/sass/app.scss ***!
@@ -66670,8 +66670,8 @@ if (document.getElementById('root')) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/michelnassar/EyeDeal/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/michelnassar/EyeDeal/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/michelnassar/Desktop/EyeDeal/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/michelnassar/Desktop/EyeDeal/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

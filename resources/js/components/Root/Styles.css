@@ -94,6 +94,12 @@ background-repeat: no-repeat;
         width: 200px;
 
     }
+    .top-section{
+
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
     .logo{
         height: 114px;
         width: 220px;
@@ -114,4 +120,26 @@ margin-bottom: 20px;
     .glasses{
         width: 120vw;
     }
+}
+
+@media only screen and (max-height:1500px) {
+    .top-section{
+        
+        height:63vh;
+    }
+
+    .logo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 151px;
+    width:291px
+}
+.soon{
+    height:120px;
+    width:278px;
+}
+.glasses{
+    height:37vh;
+    width:2100px;
+}
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './Root.css'
+import './Styles.css'
 
 const Root = () =>{
     return(
