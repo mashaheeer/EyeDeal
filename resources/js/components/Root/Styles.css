@@ -92,12 +92,13 @@ background-repeat: no-repeat;
     .soon{
         height:90px;
         width: 200px;
+        margin-top:20px;
 
     }
     .top-section{
 
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 
 }
     .logo{
@@ -122,24 +123,156 @@ margin-bottom: 20px;
     }
 }
 
-@media only screen and (max-height:1500px) {
+@media only screen and (max-height:900px) and (min-width:1000px) and (max-width:1500px) {
     .top-section{
         
-        height:63vh;
+        height:67vh;
     }
 
     .logo{
     margin-top: 10px;
     margin-bottom: 20px;
-    height: 151px;
-    width:291px
+    height: 120px;
+    width:230px;
+    margin-bottom: 25px;
 }
 .soon{
-    height:120px;
-    width:278px;
+    height:88px;
+    width:200px;
 }
 .glasses{
-    height:37vh;
-    width:2100px;
+    height:340px;
+    width:1500px;
+}
+}
+@media only screen and (max-height:900px) and (max-width:1000px) {
+    .top-section{
+        
+        height:67vh;
+    }
+
+    .logo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 120px;
+    width:230px;
+    margin-bottom: 25px;
+}
+.soon{
+    height:88px;
+    width:200px;
+}
+.glasses{
+    height:300px;
+    width:1000px;
+}
+}
+@media only screen and (max-height:700px) and (max-width:1000px) {
+    .top-section{
+        
+        height:67vh;
+    }
+
+    .logo{
+
+    height: 110px;
+    width:200px;
+    margin-bottom: 25px;
+}
+.soon{
+    height:65px;
+    width:150px;
+}
+.glasses{
+    height:200px;
+    width:1000px;
+}
+}
+@media only screen and (max-height:500px) and (max-width:900px) {
+    .top-section{
+        
+        height:67vh;
+    }
+
+    .logo{
+
+    height: 67px;
+    width:150px;
+    margin-bottom: 25px;
+}
+.soon{
+    height:65px;
+    width:150px;
+}
+.glasses{
+    height:150px;
+    width:900px;
+}
+}
+@media only screen and (max-height:900px) and (min-width:1500px) and (max-width:2000px) {
+    .top-section{
+        
+        height:67vh;
+    }
+
+    .logo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 120px;
+    width:230px;
+    margin-bottom: 25px;
+}
+.soon{
+    height:88px;
+    width:200px;
+}
+.glasses{
+    height:400px;
+    width:2000px;
+}
+}
+@media only screen and (max-height:900px) and (min-width:2000px) and (max-width:2500px) {
+    .top-section{
+        
+        height:67vh;
+    }
+
+    .logo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 120px;
+    width:230px;
+    margin-bottom: 25px;
+}
+.soon{
+    height:88px;
+    width:200px;
+}
+.glasses{
+    height:400px;
+    width:2500px;
+}
+}
+@media only screen and (max-height:900px) and (min-width:2500px) {
+    .top-section{
+        
+        height:67vh;
+    }
+
+    .logo{
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 120px;
+    width:230px;
+    margin-bottom: 25px;
+}
+.soon{
+    height:88px;
+    width:200px;
+}
+.glasses{
+    height:20vh;
+    width:100vw;
 }
 }

@@ -6278,7 +6278,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n\n.container{\n    height:100vh;\n    width: 100vw;\n    overflow: hidden;\n\n}\n.images-container{\ndisplay: flex;\nflex-direction: column;\njustify-content: center;\nalign-items: center;\nheight: 100vh;\nwidth: 100%;\nflex-direction: column;\nbackground-image: url(" + escape(__webpack_require__(/*! ../../Images/background.png */ "./resources/js/Images/background.png")) + ");\nbackground-repeat: no-repeat;\n}\n.logo{\n    margin-top: 50px;\n    margin-bottom: 20px;\n    height: 260px;\n    width:500px\n}\n.soon{\n    height:181px;\n    width:420px;\n}\n.glasses{\n    height:43vh;\n    width:2100px;\n}\n.top-section{\n    width: 100vw;\n    display: flex;\n    justify-content: center;\n    align-items: flex-end;\n    height: 57vh;\n    flex-direction: column;\n\n}\n.soon-sec, .logo-sec{\n    width: 100vw;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n@media only screen and (max-width:1500px){\n.top-section{\n    height: 60vh;\n}\n    .glasses{\n        height:40vh;\n        width:2000px;\n    }\n    .logo{\n    height: 222px;\n    width:430px\n    }\n    .soon{\n        height:160px;\n        width:370px;\n    }\n}\n@media only screen and (max-width:1000px){\n    .soon{\n        height:107px;\n        width: 246px;\n    }\n    .logo{margin: 0;\n        height: 146px;\n        width:286px\n        }\n    .top-section{\n        height:65vh;\n\n\n    }\n    .glasses{\n        height:35vh;\n        width: 1500px;\n    }\n\n}\n@media only screen and (max-width:800px){\n    .glasses{\n        width: 1200px;\n    }\n}\n@media only screen and (max-width:500px){\n    .soon{\n        height:90px;\n        width: 200px;\n\n    }\n    .top-section{\n\n    justify-content: flex-end;\n    align-items: flex-end;\n\n}\n    .logo{\n        height: 114px;\n        width: 220px;\n    }\n    .top-section{\n        height:67vh;\nmargin-bottom: 20px;\n\n    }\n    .glasses{\n        height:33vh;\n        width: 700px;\n    }\n\n\n}\n@media only screen and (min-width:2200px) {\n    .glasses{\n        width: 120vw;\n    }\n}\n\n@media only screen and (max-height:1500px) {\n    .top-section{\n        \n        height:63vh;\n    }\n\n    .logo{\n    margin-top: 10px;\n    margin-bottom: 20px;\n    height: 151px;\n    width:291px\n}\n.soon{\n    height:120px;\n    width:278px;\n}\n.glasses{\n    height:37vh;\n    width:2100px;\n}\n}\n", ""]);
+exports.push([module.i, "\n\n.container{\n    height:100vh;\n    width: 100vw;\n    overflow: hidden;\n\n}\n.images-container{\ndisplay: flex;\nflex-direction: column;\njustify-content: center;\nalign-items: center;\nheight: 100vh;\nwidth: 100%;\nflex-direction: column;\nbackground-image: url(" + escape(__webpack_require__(/*! ../../Images/background.png */ "./resources/js/Images/background.png")) + ");\nbackground-repeat: no-repeat;\n}\n.logo{\n    margin-top: 50px;\n    margin-bottom: 20px;\n    height: 260px;\n    width:500px\n}\n.soon{\n    height:181px;\n    width:420px;\n}\n.glasses{\n    height:43vh;\n    width:2100px;\n}\n.top-section{\n    width: 100vw;\n    display: flex;\n    justify-content: center;\n    align-items: flex-end;\n    height: 57vh;\n    flex-direction: column;\n\n}\n.soon-sec, .logo-sec{\n    width: 100vw;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n@media only screen and (max-width:1500px){\n.top-section{\n    height: 60vh;\n}\n    .glasses{\n        height:40vh;\n        width:2000px;\n    }\n    .logo{\n    height: 222px;\n    width:430px\n    }\n    .soon{\n        height:160px;\n        width:370px;\n    }\n}\n@media only screen and (max-width:1000px){\n    .soon{\n        height:107px;\n        width: 246px;\n    }\n    .logo{margin: 0;\n        height: 146px;\n        width:286px\n        }\n    .top-section{\n        height:65vh;\n\n\n    }\n    .glasses{\n        height:35vh;\n        width: 1500px;\n    }\n\n}\n@media only screen and (max-width:800px){\n    .glasses{\n        width: 1200px;\n    }\n}\n@media only screen and (max-width:500px){\n    .soon{\n        height:90px;\n        width: 200px;\n        margin-top:20px;\n\n    }\n    .top-section{\n\n    justify-content: center;\n    align-items: center;\n\n}\n    .logo{\n        height: 114px;\n        width: 220px;\n    }\n    .top-section{\n        height:67vh;\nmargin-bottom: 20px;\n\n    }\n    .glasses{\n        height:33vh;\n        width: 700px;\n    }\n\n\n}\n@media only screen and (min-width:2200px) {\n    .glasses{\n        width: 120vw;\n    }\n}\n\n@media only screen and (max-height:900px) and (min-width:1000px) and (max-width:1500px) {\n    .top-section{\n        \n        height:67vh;\n    }\n\n    .logo{\n    margin-top: 10px;\n    margin-bottom: 20px;\n    height: 120px;\n    width:230px;\n    margin-bottom: 25px;\n}\n.soon{\n    height:88px;\n    width:200px;\n}\n.glasses{\n    height:340px;\n    width:1500px;\n}\n}\n@media only screen and (max-height:900px) and (max-width:1000px) {\n    .top-section{\n        \n        height:67vh;\n    }\n\n    .logo{\n    margin-top: 10px;\n    margin-bottom: 20px;\n    height: 120px;\n    width:230px;\n    margin-bottom: 25px;\n}\n.soon{\n    height:88px;\n    width:200px;\n}\n.glasses{\n    height:300px;\n    width:1000px;\n}\n}\n@media only screen and (max-height:700px) and (max-width:1000px) {\n    .top-section{\n        \n        height:67vh;\n    }\n\n    .logo{\n\n    height: 110px;\n    width:200px;\n    margin-bottom: 25px;\n}\n.soon{\n    height:65px;\n    width:150px;\n}\n.glasses{\n    height:200px;\n    width:1000px;\n}\n}\n@media only screen and (max-height:500px) and (max-width:900px) {\n    .top-section{\n        \n        height:67vh;\n    }\n\n    .logo{\n\n    height: 67px;\n    width:150px;\n    margin-bottom: 25px;\n}\n.soon{\n    height:65px;\n    width:150px;\n}\n.glasses{\n    height:150px;\n    width:900px;\n}\n}\n@media only screen and (max-height:900px) and (min-width:1500px) and (max-width:2000px) {\n    .top-section{\n        \n        height:67vh;\n    }\n\n    .logo{\n    margin-top: 10px;\n    margin-bottom: 20px;\n    height: 120px;\n    width:230px;\n    margin-bottom: 25px;\n}\n.soon{\n    height:88px;\n    width:200px;\n}\n.glasses{\n    height:400px;\n    width:2000px;\n}\n}\n@media only screen and (max-height:900px) and (min-width:2000px) and (max-width:2500px) {\n    .top-section{\n        \n        height:67vh;\n    }\n\n    .logo{\n    margin-top: 10px;\n    margin-bottom: 20px;\n    height: 120px;\n    width:230px;\n    margin-bottom: 25px;\n}\n.soon{\n    height:88px;\n    width:200px;\n}\n.glasses{\n    height:400px;\n    width:2500px;\n}\n}\n@media only screen and (max-height:900px) and (min-width:2500px) {\n    .top-section{\n        \n        height:67vh;\n    }\n\n    .logo{\n\n    margin-top: 10px;\n    margin-bottom: 20px;\n    height: 120px;\n    width:230px;\n    margin-bottom: 25px;\n}\n.soon{\n    height:88px;\n    width:200px;\n}\n.glasses{\n    height:20vh;\n    width:100vw;\n}\n}", ""]);
 
 // exports
 
@@ -66466,7 +66466,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/background.png?313a0140b555ee795f8fcde63820483a";
+module.exports = "/images/background.png?ca88ad2c9ef9d6f229669b49a21104e4";
 
 /***/ }),
 
@@ -66477,7 +66477,7 @@ module.exports = "/images/background.png?313a0140b555ee795f8fcde63820483a";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/glasses.png?17e7639a511d73a17f281e2257b6e58f";
+module.exports = "/images/glasses.png?93572224dbaf0e77e6d270bdff8768bd";
 
 /***/ }),
 
@@ -66488,7 +66488,7 @@ module.exports = "/images/glasses.png?17e7639a511d73a17f281e2257b6e58f";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/logo.png?389d0e5b9a4e524fbbaf9ecc1f2a8a55";
+module.exports = "/images/logo.png?d72869bafc60f68bef6cb2c6686dd12a";
 
 /***/ }),
 
@@ -66670,8 +66670,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/michelnassar/Desktop/EyeDeal/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/michelnassar/Desktop/EyeDeal/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/michelnassar/EyeDeal/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/michelnassar/EyeDeal/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
